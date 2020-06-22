@@ -1,0 +1,9 @@
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWT\bin\Release\net472\JWT.dll
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWT\bin\Release\net472\JWT.pdb
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWT\bin\Release\net472\Newtonsoft.Json.dll
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWT\obj\Release\net472\JWT.AssemblyInfoInputs.cache
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWT\obj\Release\net472\JWT.AssemblyInfo.cs
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWT\obj\Release\net472\JWT.csproj.CoreCompileInputs.cache
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWT\obj\Release\net472\JWT.csproj.CopyComplete
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWT\obj\Release\net472\JWT.dll
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWT\obj\Release\net472\JWT.pdb

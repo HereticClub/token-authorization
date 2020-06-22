@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JWT</name>
+    </assembly>
+    <members>
+        <member name="T:TokenAuthorization.JWT.HSMODE">
+            <summary>
+            JWT encrypt mode
+            </summary>
+        </member>
+        <member name="F:TokenAuthorization.JWT.HSMODE.Unknown">
+            <summary>
+            Unknown the encrypt mode
+            </summary>
+        </member>
+        <member name="F:TokenAuthorization.JWT.HSMODE.HS1">
+            <summary>
+            Encrypt by HMAC SHA1
+            </summary>
+        </member>
+        <member name="F:TokenAuthorization.JWT.HSMODE.HS256">
+            <summary>
+            Encrypt by HMAC SHA256
+            </summary>
+        </member>
+        <member name="F:TokenAuthorization.JWT.HSMODE.HS384">
+            <summary>
+            Encrypt by HMAC SHA384
+            </summary>
+        </member>
+        <member name="F:TokenAuthorization.JWT.HSMODE.HS512">
+            <summary>
+            Encrypt by HMAC SHA512
+            </summary>
+        </member>
+        <member name="T:TokenAuthorization.JWT.VALIDATIONSTATE">
+            <summary>
+            JWT validation state
+            </summary>
+        </member>
+        <member name="F:TokenAuthorization.JWT.VALIDATIONSTATE.Valid">
+            <summary>
+            Validate is OK
+            </summary>
+        </member>
+        <member name="F:TokenAuthorization.JWT.VALIDATIONSTATE.Invalid">
+            <summary>
+            Validate is not OK. eg: JWT format error, one of components can't parse
+            </summary>
+        </member>
+        <member name="F:TokenAuthorization.JWT.VALIDATIONSTATE.Violation">
+            <summary>
+            JWT string is foarmatted, but violated. eg: signature is not match, encrypt mode is not match
+            </summary>
+        </member>
+        <member name="T:TokenAuthorization.JWT.JWTAuthentication">
+            <summary>
+            Json Web Token autnorization class
+            Create, parse or validate a JWT by this class
+            </summary>
+        </member>
+        <member name="P:TokenAuthorization.JWT.JWTAuthentication.IsValidated">
+            <summary>
+            Indicate the token is validated or not
+            </summary>
+        </member>
+        <member name="P:TokenAuthorization.JWT.JWTAuthentication.Mode">
+            <summary>
+            Indicate the token encrypt mode
+            <para>One of encrypt mode from <see cref="T:TokenAuthorization.JWT.HSMODE"/> as below: <see cref="F:TokenAuthorization.JWT.HSMODE.HS1"/>, <see cref="F:TokenAuthorization.JWT.HSMODE.HS256"/>, <see cref="F:TokenAuthorization.JWT.HSMODE.HS384"/>, <see cref="F:TokenAuthorization.JWT.HSMODE.HS512"/></para>
+            </summary>
+        </member>
+        <member name="P:TokenAuthorization.JWT.JWTAuthentication.Signature">
+            <summary>
+            Signature part of token
+            </summary>
+        </member>
+        <member name="P:TokenAuthorization.JWT.JWTAuthentication.HeaderJson">
+            <summary>
+            Header part of token in JSON format string
+            </summary>
+        </member>
+        <member name="P:TokenAuthorization.JWT.JWTAuthentication.HeaderRaw">
+            <summary>
+            Header part of token
+            </summary>
+        </member>
+        <member name="P:TokenAuthorization.JWT.JWTAuthentication.PayloadJson">
+            <summary>
+            Payload part of token in JSON format string
+            </summary>
+        </member>
+        <member name="P:TokenAuthorization.JWT.JWTAuthentication.PayloadRaw">
+            <summary>
+            Payload part of token
+            </summary>
+        </member>
+        <member name="P:TokenAuthorization.JWT.JWTAuthentication.SecretKey">
+            <summary>
+            Secret key of token
+            </summary>
+        </member>
+        <member name="M:TokenAuthorization.JWT.JWTAuthentication.#ctor">
+            <summary>
+            Create a new <see cref="T:TokenAuthorization.JWT.JWTAuthentication"/> object
+            </summary>
+        </member>
+        <member name="M:TokenAuthorization.JWT.JWTAuthentication.#ctor(System.String)">
+            <summary>
+            Create a new <see cref="T:TokenAuthorization.JWT.JWTAuthentication"/> object
+            </summary>
+            <param name="key">Secret key of token</param>
+        </member>
+        <member name="M:TokenAuthorization.JWT.JWTAuthentication.Base64UrlEncode(System.Byte[])">
+            <summary>
+            Convert Base64 standard string to Base64Url format string
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TokenAuthorization.JWT.JWTAuthentication.Base64UrlDecode(System.String)">
+            <summary>
+            Convert Base64Url format string to Base64 standard string
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TokenAuthorization.JWT.JWTAuthentication.CreateToken(System.Object,TokenAuthorization.JWT.HSMODE)">
+            <summary>
+            Create JWT string
+            </summary>
+            <param name="Item">Components of payload</param>
+            <param name="Mode">Encrypt mode, default is <see cref="F:TokenAuthorization.JWT.HSMODE.HS256"/></param>
+            <returns>JWT string</returns>
+        </member>
+        <member name="M:TokenAuthorization.JWT.JWTAuthentication.ParseToken``1(System.String)">
+            <summary>
+            Parse the JWT string
+            </summary>
+            <typeparam name="T">An object to be parsed from payload component</typeparam>
+            <param name="Token">JWT string</param>
+            <returns><typeparamref name="T"/> type object</returns>
+        </member>
+        <member name="M:TokenAuthorization.JWT.JWTAuthentication.ValidationToken(System.String)">
+            <summary>
+            Validate the JWT string
+            </summary>
+            <param name="Token">JWT string</param>
+            <returns>One of state from <see cref="T:TokenAuthorization.JWT.VALIDATIONSTATE"/></returns>
+        </member>
+    </members>
+</doc>

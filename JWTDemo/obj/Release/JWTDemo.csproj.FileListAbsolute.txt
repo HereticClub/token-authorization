@@ -1,0 +1,15 @@
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWTDemo\bin\Release\JWTDemo.exe.config
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWTDemo\bin\Release\JWTDemo.exe
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWTDemo\bin\Release\JWTDemo.pdb
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWTDemo\bin\Release\JWT.dll
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWTDemo\bin\Release\Newtonsoft.Json.dll
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWTDemo\bin\Release\JWT.pdb
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWTDemo\bin\Release\Newtonsoft.Json.xml
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWTDemo\obj\Release\JWTDemo.csprojAssemblyReference.cache
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWTDemo\obj\Release\JWTDemo.frmMain.resources
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWTDemo\obj\Release\JWTDemo.Properties.Resources.resources
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWTDemo\obj\Release\JWTDemo.csproj.GenerateResource.cache
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWTDemo\obj\Release\JWTDemo.csproj.CoreCompileInputs.cache
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWTDemo\obj\Release\JWTDemo.csproj.CopyComplete
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWTDemo\obj\Release\JWTDemo.exe
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWTDemo\obj\Release\JWTDemo.pdb

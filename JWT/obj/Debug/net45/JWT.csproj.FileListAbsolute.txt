@@ -1,0 +1,11 @@
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWT\bin\Debug\net45\JWT.dll
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWT\bin\Debug\net45\JWT.pdb
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWT\bin\Debug\net45\JWT.xml
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWT\bin\Debug\net45\Newtonsoft.Json.dll
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWT\obj\Debug\net45\JWT.AssemblyInfoInputs.cache
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWT\obj\Debug\net45\JWT.AssemblyInfo.cs
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWT\obj\Debug\net45\JWT.csproj.CoreCompileInputs.cache
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWT\obj\Debug\net45\JWT.csproj.CopyComplete
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWT\obj\Debug\net45\JWT.dll
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWT\obj\Debug\net45\JWT.pdb
+D:\Programs\VS2019\CSharp\TokenAuthorization\JWT\obj\Debug\net45\JWT.csprojAssemblyReference.cache

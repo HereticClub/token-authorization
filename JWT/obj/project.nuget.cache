@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "GrR9ehDXpHYs6i7zFSPfIiBeT0P8k6LyrPeCd94WSYEMxKZLzhC3KYYSYcWKdJYqKhlrmEcdqrEhGxtOcjN53w==",
+  "success": true,
+  "projectFilePath": "D:\\Programs\\VS2019\\CSharp\\TokenAuthorization\\JWT\\JWT.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Terry\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
